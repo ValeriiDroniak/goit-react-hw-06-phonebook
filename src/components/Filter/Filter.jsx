@@ -21,7 +21,7 @@ export const Filter = () => {
       <Label>
         <InputTitle>Find contacts by name</InputTitle>
         <Input
-          // type="text"
+          type="text"
           name="filter"
           value={value}
           onChange={handleChangeFilter}

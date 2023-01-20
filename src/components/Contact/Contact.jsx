@@ -5,6 +5,7 @@ import { Button, ContactItem } from './Contact.styled';
 
 export const Contact = ({ id, name, number }) => {
   const dispatch = useDispatch();
+
   return (
     <ContactItem>
       <p>{name}:</p>
